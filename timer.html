@@ -15,14 +15,20 @@
         
   
       }
-   
+     body{
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
       .main{
         background: #159957;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
         width:100vw;
-        height: 100vh;
+        height:80vh;
         border: 1px solid black;
       
         justify-content: center;
@@ -51,6 +57,14 @@ background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, F
           padding: 10px;
           font-size: 5rem;
        }
+       #button-timmer{
+        padding: 7px 10px;
+
+       }
+       #button-timmer:hover{
+        background:goldenrod;
+       }
+  
   </style>
 </head>
 <body>
@@ -61,7 +75,7 @@ background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, F
         <div class="nav">
             <div class="nav-img">Logo</div>
             <div class="nav-li"> 
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">Quizes</a></li>
                 <li><a href="">About Us</a></li> 
                 <li><a href="">Contact</a></li>
@@ -102,7 +116,7 @@ background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, F
 
     <!-- FOOTER STARTED HERE -->
      <div class="footer">
-
+        <a id="footer-a" href="quizes.html"><button id="button-timmer">GO TO QUIZ</button></a> 
      </div>
      <!-- FOOTER STARTED HERE -->
     <script src="timer.js</script>
