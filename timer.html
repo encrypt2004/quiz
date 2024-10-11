@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="quize.css">
+    
+
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+          
+        
+  
+      }
+   
+      .main{
+        background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        width:100vw;
+        height: 100vh;
+        border: 1px solid black;
+      
+        justify-content: center;
+        margin:0px auto;
+      
+      }
+      .heading{
+        padding-bottom: 60px;
+      }
+       #timer{
+          
+          border:  1px soli black;
+          display:inline-block;
+          display: flex;
+          gap: 0;
+          color:white;
+            align-items:  center;
+            justify-content: center;
+            margin: auto;
+           background-color: rgba(0,0,0,0.1);
+           height:fit-content;
+            width: fit-content;
+            
+       }
+       h1{
+          padding: 10px;
+          font-size: 5rem;
+       }
+  </style>
+</head>
+<body>
+    <!-- main container is started here!!!!!!!!!!! -->
+    <div class="quiz-container">
+      
+      <!-- nav is started here -->
+        <div class="nav">
+            <div class="nav-img">Logo</div>
+            <div class="nav-li"> 
+                <li><a href="">Home</a></li>
+                <li><a href="">Quizes</a></li>
+                <li><a href="">About Us</a></li> 
+                <li><a href="">Contact</a></li>
+                <li><a href="">Rules</a></li>
+                <li><a href="">Login</a></li>  
+                <li><a href="">profile</a></li>  
+            </div>
+        </div>
+          <!-- nav ended here -->
+
+
+
+
+
+
+        <!-- mid box started here -->
+         <div class="mid-sec">
+                
+            <div  class="main" >
+               <h1 class="heading">YOUR QUIZ IS ABOUT TO START</h1>
+                <div id="timer">
+                  <h1 id="hour">00</h1> :
+                  <h1 id="min">00</h1> :
+                  <h1 id="sec">00</h1>
+              </div>
+            </div>
+        
+            <script src="digtialClock.js"></script>
+        </body>
+
+
+
+         </div>
+          <!-- mid box ENDED here -->
+    </div>
+
+
+
+    <!-- FOOTER STARTED HERE -->
+     <div class="footer">
+
+     </div>
+     <!-- FOOTER STARTED HERE -->
+    <script src="timer.js</script>
+</body>
+</html>
