@@ -40,4 +40,30 @@ body{
     background-color: rgb(7, 72, 7);
     color: white;
 }
+#home-tag a{
+    color: white;
+    text-decoration: none;
+}
 /* nav */
+
+
+
+
+/* mid part is Started here */
+.mid-sec{
+    width: 100vw;
+    display: flex;
+    background-color: rgb(63, 63, 206);
+}
+.mid-p1{
+    width:25vw;
+    height: 100vh;
+   
+    padding-right: ;
+}
+.mid-p2{
+    width: 70vw;
+    height: 100vh;
+   
+}
+/* mid part is Ended here */
